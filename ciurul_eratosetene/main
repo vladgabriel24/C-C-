@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cstring>
+
+int main()
+{
+    int x;
+    std::cin>>x;
+
+    int numere[x+1];
+    memset(numere, 0, x+1);
+
+    for(int i = 2; i*i<x; i+=2)
+    {
+        for(int j = i*2; j<=x; j+=i)
+        {
+            numere[j] = 1;
+        }
+        if(i==2) i = i-1;
+    }
+
+    for(int i=2; i<=x; i++)
+    if(!numere[i]) std::cout<<i<<' ';
+
+    // Complexitate de timp: O(n*log(log n))
+    // Complexitate de spatiu: O(n)
+
+    return 0;
+}
