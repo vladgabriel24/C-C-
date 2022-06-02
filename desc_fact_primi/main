@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+void descomp_f_primi(int nr, int i)
+{
+    if(nr > 1)
+    {
+        if(nr%i == 0)
+        {
+            cout<<i<<' ';
+            while(nr%i == 0)
+            {
+                // cout<<i<<' ';
+                nr /= i;
+            }
+        }
+        descomp_f_primi(nr, i+1);
+    }
+}
+
+int main()
+{
+    descomp_f_primi(60, 2);
+
+    return 0;
+}
