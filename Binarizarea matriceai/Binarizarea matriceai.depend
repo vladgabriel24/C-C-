@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611509977 source:c:\users\vlad\desktop\programe\binarizarea matriceai\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611518955 source:c:\users\vlad\desktop\programe\poligon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

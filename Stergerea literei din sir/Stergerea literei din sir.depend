@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1610987091 source:c:\users\vlad\desktop\programe\stergerea literei din sir\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

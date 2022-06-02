@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1611154066 source:c:\users\vlad\desktop\programe\inmultire matrici\main.c
+	<stdio.h>
+	<stdlib.h>
+

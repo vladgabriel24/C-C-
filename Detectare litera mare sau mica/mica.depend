@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1610989763 source:c:\users\vlad\desktop\programe\mica\detectare litera mare\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1610989776 source:c:\users\vlad\desktop\programe\detectare litera mare sau mica\main.c
+	<stdio.h>
+	<stdlib.h>
+

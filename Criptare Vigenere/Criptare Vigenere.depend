@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611060307 source:c:\users\vlad\desktop\programe\criptare vigenere\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
